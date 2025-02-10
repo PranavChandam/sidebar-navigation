@@ -1,0 +1,76 @@
+
+.card{
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    display: inline-block;
+    border: 2px solid black;
+    margin: 10px;
+    transition: 1s;
+}
+img{
+    width: 100%;
+    height: 60%;
+}
+
+.card:hover{
+    box-shadow: 2px 2px 8px black;
+}
+
+.desk{
+    padding: 0 0 0 2px;
+}
+
+#smile{
+   height: 200px;
+   width: 200px;
+   border:2px solid black;
+   margin: 50px 0 0 0;
+}
+#Circle{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color:rgb(232, 211, 19);
+}
+#c1{
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    border-radius: 50%;
+    top: 50px;
+    left: 50px;
+    position: relative;
+    display: inline-block;
+}
+#c2{
+    height: 20px;
+    width: 20px;
+    background-color:black;
+    border-radius: 50%;
+    top: 50px;
+    left: 100px;
+    position:relative;
+    display: inline-block;
+}
+#c3{
+    height: 30px;
+    width: 80px;
+    background-color: brown;
+    position: relative;
+    top:  100px;
+    left: 55px;
+    border-radius: 0 0 15px 15px;
+}
+
+#box1{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    transition: 2s;
+}
+
+#box1:hover{
+    width: 600px;
+    
+}
